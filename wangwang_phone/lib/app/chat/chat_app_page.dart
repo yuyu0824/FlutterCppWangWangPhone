@@ -1503,7 +1503,8 @@ class _MessageBodyCard extends StatelessWidget {
               ),
             ),
           ],
-       );
+        ),
+      );
     }
     if (body is ImageMessageBody) {
       return _MessageBubbleShell(
